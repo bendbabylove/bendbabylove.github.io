@@ -1,0 +1,9 @@
+{
+  "name": "bendbabylove.com",
+  "dependencies": {
+    "jquery": "~1.8.3",
+    "selectivizr": "https://github.com/keithclark/selectivizr.git",
+    "nwmatcher": "https://github.com/dperini/nwmatcher.git",
+    "bower-foundation5": "~5.0.3"
+  }
+}

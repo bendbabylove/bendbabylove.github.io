@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'Bree Serif';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Bree Serif'), local('BreeSerif-Regular'), url(http://themes.googleusercontent.com/static/fonts/breeserif/v3/LQ7WLTaITDg4OSRuOZCpsy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+body {
+	background-color: #F6F6F6;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Bree Serif", serif;
+}
+.th {
+	margin: 0 10px 10px 10px;
+}
+.top-bar .toggle-topbar.menu-icon a:after {
+	box-shadow: 0 10px 0 1px #F5AFB6, 0 16px 0 1px #F5AFB6, 0 22px 0 1px #F5AFB6;
+}
+.top-bar .toggle-topbar.menu-icon a,
+.top-bar .title-area .name h1 a {
+	color: #F5AFB6;
+}

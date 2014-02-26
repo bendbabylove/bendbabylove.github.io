@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>{{ page.title }}</title>
+	<meta name="Description" content="{{ page.desc }}"/>
+	<link href="/favicon.ico" rel="shortcut icon"/type="image/x-icon"/>
+	<link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+	<link href="/assets/assets.min.css?v={{ site.time | date: site.date_format }}" rel="stylesheet"/>
+	<script src="/assets/head.min.js?v={{ site.time | date: site.date_format }}"></script>
+	<!--[if lt IE 9]>
+		<script src="/assets/polyfill.min.js?v={{ site.time | date: site.date_format }}"></script>
+	<![endif]-->
+</head>
+<body>
+	<!-- Nav Bar -->
+	<nav class="top-bar" data-topbar="">
+		<ul class="title-area">
+			<li class="name"><h1><a href="/">bend baby love</a></h1></li>
+			<li class="toggle-topbar menu-icon"><a>Menu</a></li>
+		</ul>
+		<section class="top-bar-section">
+			<ul class="left">
+				<li><a href="/about/">About</a></li>
+			</ul>
+
+			<ul class="right">
+				<li><a href="/contact/">Contact</a></li>
+				<li class="has-dropdown">
+					<a>Menu</a>
+					<ul class="dropdown">
+						<li><a href="/benefits/">Infant Massage Benefits</a></li>
+						<li><a href="/techniques/">Infant Massage Techniques</a></li>
+						<li><a href="/testimonials/">Infant Massage Testimonials</a></li>
+						<li><a href="/faq/">F.A.Q</a></li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+	</nav>
+	<!-- End Nav -->
+
+	<!-- Main Page Content -->
+	<div class="row">
+		<div class="large-12 columns">
+			<h1 class="text-center">Bend Baby Love</h1>
+			<h6 class="text-center">Certified Infant Massage Instructor</h6>
+			<hr/>
+		</div>
+
+		<!-- Main Blog Content -->
+		<div class="large-12 columns" role="content">
+			{{content}}
+		</div>
+	</div>
+	<!-- End Main Content -->
+
+	<!-- Footer -->
+	<footer class="row">
+		<div class="large-12 columns">
+			<hr/>
+			<p>&#169; Bend Baby Love, LLC</p>
+		</div>
+	</footer>
+
+<script src="/assets/inline.min.js?v={{ site.time | date: site.date_format }}"></script>
+</body>
+</html>
